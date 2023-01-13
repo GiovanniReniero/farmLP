@@ -1,0 +1,50 @@
+.intro-bar{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid green;
+    margin: 10px;
+
+    .intro-bar-box-1,
+    .intro-bar-box-2{
+        width: 100%;
+        height: 100%;
+        min-height: 60px;
+        display: flex;
+        text-align: start;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+            
+        p{
+            font-size: 0.7rem;      
+        }
+        
+    }
+
+    .intro-bar-box-2{
+        background-color: $background-color;
+        // border: 1px blue dashed;
+    
+        p {
+            color: white;
+        }
+    }
+    
+}
+
+/* **************************
+***** MEDIA QUERIES ******************************************
+************************** */
+
+@media screen and (min-width: 576px){
+    
+    .intro-bar{
+        flex-direction: row;
+        margin: 10px auto;
+    }
+
+}
