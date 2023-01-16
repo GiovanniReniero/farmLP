@@ -1,0 +1,31 @@
+.company-description{
+ width: 70%;
+ height: 300px;
+ margin: 3rem auto;
+ border: 2px solid coral;
+ 
+ h2{
+   font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+  } 
+  
+  h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+  }   
+
+  p{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .separator-line{
+    margin: 2rem auto;
+  }
+
+
+}
