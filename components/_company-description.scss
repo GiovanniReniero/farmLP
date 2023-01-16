@@ -5,7 +5,7 @@
  border: 2px solid coral;
  
  h2{
-   font-size: 12px;
+   font-size: 1rem;
    font-weight: bold;
    text-align: center;
   } 
@@ -13,18 +13,20 @@
   h1{
     text-align: center;
     font-weight: bold;
-    font-size: 3rem;
+    line-height: 0.8;
+    font-size: 2rem;
     text-align: center;
   }   
 
   p{
     text-align: center;
     font-size: 0.8rem;
-    padding: 6px;
+    padding: 6px 2rem;
   }
 
   .separator-line{
-    margin: 2rem auto;
+    width: 20%;
+    margin: 0.8rem auto;
   }
 
 
