@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // border: 1px solid green;
     margin: 10px;
 
     .intro-bar-box-1,
@@ -20,20 +19,17 @@
         margin: 0 10px;
             
         p{
-            font-size: 0.7rem;      
+            font-size: 11px;      
         }
-        
     }
 
     .intro-bar-box-2{
         background-color: $background-color;
-        // border: 1px blue dashed;
     
         p {
             color: white;
         }
     }
-    
 }
 
 /* **************************
@@ -46,5 +42,28 @@
         flex-direction: row;
         margin: 10px auto;
     }
+}
 
+@media screen and (min-width: 719px){
+ 
+    .intro-bar{
+        .intro-bar-box-1,
+        .intro-bar-box-2{
+            p{
+                font-size: 12px;      
+            }
+        }    
+    }
+}
+
+@media screen and (min-width: 992px){
+ 
+    .intro-bar{
+        .intro-bar-box-1,
+        .intro-bar-box-2{
+            p{
+                font-size: 1rem;      
+            }
+        }    
+    }
 }

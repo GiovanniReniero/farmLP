@@ -3,11 +3,9 @@
 @import "components/separator-line";
 @import "components/intro-bar";
 @import "components/grid-element";
-@import "components/page-cards";
 @import "components/sub-lp-cards";
 @import "components/company-description";
-@import "components/work-we-do";
-@import "components/separator-line";
+@import "components/base-area";
 
 
 html{
@@ -28,20 +26,4 @@ body{
 main{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-
-
-
-/* **************************
-***** MEDIA QUERIES ******************************************
-************************** */
-
-@media screen and (min-width: 719px) {
-    
-    .grid-container{
-        grid-template-columns: 1fr 1fr;
-        // grid-template-rows: 120px;
-        // grid-auto-rows: 60px;
-    }
 }

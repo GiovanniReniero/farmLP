@@ -10,8 +10,19 @@
 .separator-line{
     text-align: center;
     width: 10%;
-    max-width: 200px;
-    height: 3px;
+    max-width: 80px;
+    height: 4px;
     background-color: $separator-line;
     margin: 2rem
+}
+
+
+/* **************************
+***** MEDIA QUERIES ******************************************
+************************** */
+
+@media screen and (min-width: 992px) {
+    .separator-line{
+        height: 6px;
+    }
 }

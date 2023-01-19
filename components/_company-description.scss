@@ -1,8 +1,9 @@
 .company-description{
  width: 70%;
+ min-width: 260px;
+ max-width: 520px;
  height: 300px;
  margin: 3rem auto;
- border: 2px solid coral;
  
  h2{
    font-size: 1rem;
@@ -13,7 +14,6 @@
   h1{
     text-align: center;
     font-weight: bold;
-    line-height: 0.8;
     font-size: 2rem;
     text-align: center;
   }   
@@ -28,6 +28,30 @@
     width: 20%;
     margin: 0.8rem auto;
   }
+}
 
 
+/* **************************
+***** MEDIA QUERIES ******************************************
+************************** */
+@media screen and (min-width: 534px) {
+  .company-description {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
+  .company-description {
+    margin-bottom: 0;
+
+    h2{
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+    h1{
+      font-size: 2.6rem;
+      margin-top: 0px;
+    }
+  }
 }
