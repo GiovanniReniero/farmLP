@@ -19,10 +19,10 @@
     background: $background-color;
     position: relative;
 
-    img{
+    img.hp-image{
         width: 100%;
         height: 100%;
-        object-fit: cover
+        object-fit: cover;
     }
 
     .hp-text-on-image{
