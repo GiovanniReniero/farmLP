@@ -7,7 +7,7 @@
   grid-auto-rows: 200px;
   gap: 12px;
 
-  .grid-card{
+  .fc-hp-grid-card{
     grid-row: span 2;
     height: 100%;
     width: 100%;
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
   
-    .card-box{
+    .fc-hp-card-box{
       background-color: $background-color;
       flex: 1 1 auto;
       position: relative;
@@ -83,7 +83,7 @@
     grid-auto-rows:260px;
     gap: 26px;
 
-    .grid-card{
+    .fc-hp-grid-card{
       grid-row: span 1;
      
       P{
@@ -100,7 +100,7 @@
   .fc-hp-cards{
     grid-auto-rows:380px;
 
-    .grid-card{
+    .fc-hp-grid-card{
      
       P{
         margin: 6px 0;
